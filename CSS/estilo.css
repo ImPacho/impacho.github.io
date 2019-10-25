@@ -1,0 +1,65 @@
+body {
+	background-color: #000;
+}
+header {
+	background-color:  #9c9c9c;
+	font-family: 'Roboto Slab', serif;
+}
+h1{
+	color:#fff;
+	font-size: 20px;
+	
+}
+
+
+section {
+	height: auto;
+}
+.BoxINDEX {
+	width: 31%;
+	margin: 1%;
+	height: auto;
+	float: left;
+	color: #FFF;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+
+}
+.BoxINDEX img {
+	width: 100%;
+}
+a:hover{
+	opacity: 0.5;
+	transition-duration:1s;
+}
+.BoxINDEX p{
+	text-align: justify;
+}
+.BoxINDEX li{
+	text-align: justify;
+}
+
+.BoxINDEX {
+	width: 31%;
+	margin: 1%;
+	height: auto;
+	float: left;
+	color: #FFF;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+
+}
+.BoxINDEX img {
+	width: 100%;
+}
+.BoxINDEX a:hover{
+	opacity: 0.5;
+}
+footer {
+	height: 30px;
+	background-color: #878787;
+}
+.h3{
+	text-align: center;
+}
+
