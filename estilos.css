@@ -1,0 +1,64 @@
+body{ margin: 0; padding: 0; 
+	background-image:url(fotos/galaxia.jpg); background-size: 100%;
+	background-repeat: no-repeat; background-position: top center;
+	position: relative;
+	overflow: hidden;
+}
+
+h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 128px;
+	position: absolute;
+	top: 40px;
+	right: 850px;
+	color:#FFFF;
+}
+h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 38px;
+	position: absolute;
+	top: 170px;
+	right: 350px;
+	color:#FFFF;
+}
+
+.aa{
+	position: absolute;
+	bottom: -725px;
+	right: 80px;
+}
+	
+.bot{
+	position: absolute;
+	top: 650px;
+	left: 550px;
+}
+.boton{
+	background-color: black;
+	border-bottom-color: #FFFF;
+	border-bottom-style:solid;
+	font-family: 'Roboto Slab', serif;
+	color: #FFFF;
+	position: absolute;
+	top: 650px;
+	left: 570px;
+	width: 25%;
+}
+.boton:hover{
+	color:black;
+	background-color: #FFFF;
+	border-color: black;
+
+}
+.flares{
+	position: absolute;
+	top: 50px;
+	left: 83px; 
+}
+
+.alien{
+	position:absolute;
+	top: 10px;
+	left: -10px;
+}
+
