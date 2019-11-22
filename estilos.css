@@ -6,20 +6,20 @@ body{ margin: 0; padding: 0;
 }
 
 h1{
-	font-family: 'Roboto Slab', serif;
-	font-size: 128px;
-	position: absolute;
+	font-family: 'Roboto Slab', serif !important;
+	font-size: 128px !important;
+	position: absolute !important;
 	top: 40px;
 	right: 850px;
-	color:#FFFF;
+	color:#FFFF !important;
 }
 h2{
-	font-family: 'Roboto Slab', serif;
-	font-size: 38px;
+	font-family: 'Roboto Slab', serif !important;
+	font-size: 38px !important;
 	position: absolute;
 	top: 170px;
 	right: 350px;
-	color:#FFFF;
+	color:#FFFF !important ;
 }
 
 .aa{
@@ -34,11 +34,12 @@ h2{
 	left: 550px;
 }
 .boton{
-	background-color: black;
-	border-bottom-color: #FFFF;
-	border-bottom-style:solid;
-	font-family: 'Roboto Slab', serif;
-	color: #FFFF;
+	background-color: black !important;
+	border-bottom-color: #FFFF !important;
+	border-bottom-style:solid !important;
+	font-family: 'Roboto Slab', serif !important;
+	font size: 100px !important;
+	color: #FFFF !important;
 	position: absolute;
 	top: 650px;
 	left: 570px;
@@ -61,4 +62,9 @@ h2{
 	top: 10px;
 	left: -10px;
 }
+.contac{
+	overflow: hidden;
+}
+
+
 

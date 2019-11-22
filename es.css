@@ -2,16 +2,23 @@
 html{ scroll-behavior: smooth; }
 
 body{ background:grey;
-	color: white;
+	color: grey;
 	font-size: 22px;
 	width: 100%;
 	font-family:'Roboto Slab', serif;
+}
+.background{
+	background:grey;
+
 }
 
 .titulo{
 	margin-left: 2%;
 	color: white;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+	text-decoration: none;
+	font-family:'Roboto Slab', serif;
+	font-size: 22px;
 }
 
 .wrapper{
@@ -20,16 +27,48 @@ body{ background:grey;
 	margin: auto;
 	background:  #9c9c9c;
 }
-.nombre {margin-left: 2%;
+.nombre {
+	margin-left: 2%;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-#nav{
+.header1{
+	background-color: #a7a7a7;
+	box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2)!important;
+}
+.navbar{
+	color: black !important;
+	font-size: 22px !important;
+	font-family:'Roboto Slab', serif !important;
+}
+.navbar-brand{
+	width: 100%;
+	margin-right: 0;
+}
+.nav-link{
+	font-family:'Roboto Slab', serif;
+	color: black!important; 
+
+}
+#navbarText a:before{
+    content:'';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: black;
+    margin-left: 3px;
+    transition: all ease-in-out 250ms;
+    
+}
+#navbarText a:hover:before{
+    width: 100%;
+}
+#navegadorcito{
 	background: #595959;
 	display: flex;
 	justify-content: space-around;
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
-nav a:before{
+#navegadorcito .navvv:before{
     content:'';
     display: block;
     height: 5px;
@@ -39,15 +78,22 @@ nav a:before{
     transition: all ease-in-out 250ms;
     
 }
-nav a:hover:before{
+#navegadorcito .navvv:hover:before{
     width: 100%;
 }
-a{
+.navvv{
 	margin-left:5%;
 	margin-right: 5%;
-	color: white;
+	color:white;
 	text-decoration: none;
 	font-size: 24px;
+}
+.navvv:hover{
+	color:white;
+	text-decoration: none;
+}
+.navegador{
+	margin-top: 3%;
 }
 .data{
 	display: flex;
@@ -69,7 +115,9 @@ a{
 	background: black;
 	margin-left: 2%
 }
-p{
+.parrafo{
+	font-family:'Roboto Slab', serif;
+	font-size: 22px;
 	margin-left: 2%;
 	margin-top: 2%;
 }
@@ -115,6 +163,9 @@ p{
 	background-color: black;
 	margin:1%;
 }
+.titulos{
+	color: white;
+}
 .data{	
 	margin-top: 2%;
 	color: white;
@@ -127,8 +178,6 @@ p{
 .pp:hover{
 	transition-duration: 1s;
 	opacity: 0.5;
-
-
 }
 .film{
 	margin-top: 4%;
@@ -143,6 +192,7 @@ li{margin-top:3%;
 
 }
 .bb{
+	color: white;
 	position: fixed;
 	padding: 0.5%;
 	margin-left: 1%;
@@ -151,6 +201,11 @@ li{margin-top:3%;
 	height: auto;
 	background-color: black;
 	border-radius: 5px;
+}
+.bb:hover{
+	color:grey;
+	text-decoration: none;
+
 }
 
 footer{
@@ -171,6 +226,7 @@ img{ width: 100% }
 .pp{width: 50%; margin-bottom: 1%; }
 .wrapper{height: auto; }
 .bott{ left: -5%; }
+.firma{ width: 25% }
 }
 
 @media screen and (min-width: 0px) and (max-width: 599px){ 

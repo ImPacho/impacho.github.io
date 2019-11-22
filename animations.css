@@ -1,0 +1,21 @@
+@keyframes sl {
+	0% { transform: translateX(-100%);}
+	50%{ transform: translateX(-100%); }
+	100% {transform: translateX(0%); }
+}
+@keyframes texto{
+	0% { transform: translateY(-100%);}
+	50%{ transform: translateY(0%); }
+	100% {transform: translateY(); }
+}
+
+.slider{
+	animation-name: sl;
+	animation-duration: 1s;
+	animation-timing-function: ease;
+
+}
+.gg{
+	animation-name: texto;
+	animation-duration: 2s;
+}

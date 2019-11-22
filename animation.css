@@ -1,24 +1,20 @@
-@keyframes alien{
-	0% {background-position: 0;}
-	100% {background-position: 13000px;}
 
-}
 @keyframes opacity{
 	0%{opacity: 0}
 	50%{opacity: 1}
 	100%{opacity: 0}
 }
 @keyframes texto1{
-	0%{transform: translateY( -400px);}
-	100%{ transform: translateY(0px); }
+	0%{transform: translateY( -100%);}
+	100%{ transform: translateY(0%); }
 }
 @keyframes texto2{
-	0%{ transform: translateX( 1000px); }
-	100%{ transform: translateX(0); }
+	0%{ transform: translateX( 100%); }
+	100%{ transform: translateX(0%); }
 }
 @keyframes boton{
-	0%{ transform: translateY(800px); }
-	100%{ transform: translateY(0px); }
+	0%{ transform: translateY(300%); }
+	100%{ transform: translateY(0%); }
 }
 .sker{
 	animation-name: alien;
@@ -28,14 +24,14 @@
 }
 
 .flares{animation-name: opacity;
-	animation-duration: 5s;
+	animation-duration: 4s;
 	animation-iteration-count: infinite;
 
 }
 h1{
 	animation-name: texto1;
 	animation-duration: 1s;
-	animation-timing-function: ease-in-out;
+	animation animation-timing-function: ease-in-out;
 }
 .ss{
 	animation-name: texto2;
@@ -44,7 +40,7 @@ h1{
 }
 .boton{
 	animation-name: boton;
-	animation-duration: 1s;
+	animation-duration: 0.7s;
 	animation-timing-function: ease-in;
 
 }
